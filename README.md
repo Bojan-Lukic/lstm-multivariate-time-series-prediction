@@ -32,7 +32,7 @@
 <h3 align="center">Multivariate Time Series Prediction with LSTM Neural Networks</h3>
 
   <p align="center">
-    project_description
+    Application and assessment of machine learning models for weather prediction using LSTM neural networks.
     <br />
     <a href="https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction/doc"><strong>Explore the docs »</strong></a>
     <br />
@@ -55,9 +55,9 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <!-- <ul>
+      <ul>
         <li><a href="#built-with">Built With</a></li>
-      </ul> -->
+      </ul>
     </li>
     <!-- <li>
       <a href="#getting-started">Getting Started</a>
@@ -82,25 +82,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+This project gives an overview on how to develop a dense and deep neural network for making a time series prediction. Python’s development environment Jupyter, extended with the TensorFlow package and deep-learning application Keras is used. The main part shows an applied example of time series prediction with weather data. For this work, a deep recurrent neural network with Long Short-Term Memory cells is used to conduct the time series prediction. The results and evaluation of the work show that a weather prediction with deep neural networks can be successful for a short time period.
 
 <br />
 
 
-<!--
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python](https://www.python.org/) (Version 3.7)
+  * packages can be installed using the [requirements.txt](https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction/blob/master/requirements.txt) file
+* [Jupyter Notebook](https://jupyter.org/)
 
 <br />
--->
 
 
 <!-- GETTING STARTED -->
@@ -142,9 +135,9 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To be updated.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the docs_
 
 <br />
 
@@ -207,9 +200,7 @@ Project Link: [https://github.com/Bojan-Lukic/lstm-multivariate-time-series-pred
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Aurélien Géron with [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
