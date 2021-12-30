@@ -201,6 +201,7 @@ Project Link: [https://github.com/Bojan-Lukic/lstm-multivariate-time-series-pred
 ## Acknowledgments
 
 * Aurélien Géron with [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+* Jason Brownlee with [Time Series Prediction with LSTM Networks](https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
