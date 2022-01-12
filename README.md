@@ -24,7 +24,7 @@
 <div align="center">
   <figure>
     <a href="https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction">
-      <img src="res/logo.png" alt="Logo" width="120" height="120">
+      <img src="res/logo.png" alt="Logo" width="150" height="150">
     </a><br />
     <figcaption><sub>Icon made by <a href="https://www.flaticon.com/authors/becris">Becris</a> from www.flaticon.com.</sub></figcaption>
   </figure>
