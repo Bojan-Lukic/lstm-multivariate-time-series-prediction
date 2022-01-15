@@ -34,10 +34,10 @@
   <p align="center">
     Application and assessment of machine learning models for weather prediction using LSTM neural networks.
     <br />
-    <a href="https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction/doc"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction/tree/main/doc"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction/src">View Demo</a>
+    <a href="https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction/tree/main/src">View Demo</a>
     ·
     <a href="https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction/issues">Report Bug</a>
     ·
