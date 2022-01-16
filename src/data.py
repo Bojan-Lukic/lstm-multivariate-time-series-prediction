@@ -20,3 +20,7 @@ def multivariate_data(dataset, target, start_index, end_index, history_size,
             labels.append(target[i:i+target_size])
 
     return np.array(data), np.array(labels)
+    
+
+def create_time_steps(length):
+    return list(range(-length + 1, + 1))

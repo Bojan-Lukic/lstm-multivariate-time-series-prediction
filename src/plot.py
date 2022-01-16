@@ -1,11 +1,14 @@
 import numpy as np
 import pandas as pd
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 from math import sqrt
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
+from data import create_time_steps
 
 
-def multi_step_plot(history, true_future, prediction, title):
+def multi_step_plot(history, true_future, prediction, title, STEP):
     calibri = {'fontname':'Calibri'}
     plt.figure(figsize=(12, 6))
     
@@ -43,3 +46,25 @@ def multi_step_plot(history, true_future, prediction, title):
     print('MAE: %.3f' % mae)
     print('ME: %.3f' % me_diff)
     print('SD: %.3f' % sd_diff)
+    
+    
+def plot_train_history(history, title):
+    calibri = {'fontname':'Calibri'}
+    loss = history.history['loss']
+    val_loss = history.history['val_loss']
+    
+    epochs = range(len(loss))
+
+    plt.figure(figsize=(12, 8))
+
+    plt.plot(epochs, loss, 'b', label='Training loss')
+    plt.plot(epochs, val_loss, 'r', label='Validation loss')
+    plt.title(title, **calibri)
+    plt.xlabel('Epochs', **calibri)
+    plt.xticks([-1, 4, 9, 14, 19, 24, 29], [0, 5, 10, 15, 20, 25, 30])
+    plt.ylabel('MSE loss', **calibri)
+    plt.grid()
+    plt.legend(fontsize=16)
+    mpl.rcParams.update({'font.size': 20})
+
+    plt.show()
