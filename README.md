@@ -135,9 +135,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To be updated.
-
-_For more examples, please refer to the docs_
+_Please refer to the docs for a detailed description of the algorithm_
 
 <br />
 
